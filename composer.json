@@ -1,0 +1,50 @@
+{
+    "name": "davidlienhard/sessionhandler",
+    "license": "proprietary",
+    "description": "🐘 php sessionhandler using database connection",
+    "keywords": [ "router", "php", "library" ],
+    "type": "libary",
+    "homepage": "https://github.com/davidlienhard/sessionhandler/",
+    "authors": [
+        {
+            "name": "David Lienhard",
+            "email": "david.lienhard@tourasia.ch",
+            "homepage": "http://www.tourasia.ch/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/davidlienhard/sessionhandler/issues/",
+        "email": "david.lienhard@tourasia.ch"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.tourbase.ch"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "davidlienhard/database": "^1"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3",
+        "dancryer/php-docblock-checker": "^1"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "scripts": {
+        "changed-files": "git diff --name-only origin/master",
+        "phpdoccheck": "./vendor/bin/phpdoccheck",
+        "phpdoccheck-diff": "@composer changed-files | xargs ls -d 2>/dev/null | ./vendor/bin/phpdoccheck --from-stdin",
+        "phpcs": "./vendor/bin/phpcs",
+        "phpcs-diff": "@composer changed-files | xargs ls -d 2>/dev/null | xargs ./vendor/bin/phpcs",
+        "test": [
+            "@phpdoccheck",
+            "@phpcs"
+        ]
+    }
+}
