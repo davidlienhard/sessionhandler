@@ -60,7 +60,6 @@ class SessionHandler implements \SessionHandlerInterface
      */
     public function close()
     {
-        $this->db = null;
         return true;
     }
 
