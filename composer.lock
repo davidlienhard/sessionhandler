@@ -4,28 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "301fe1054b3f2f3abe5b0f36376090f6",
+    "content-hash": "87f4e3acfcd047d2af85519f0de1db19",
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "1.0.6",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:davidlienhard/database.git",
-                "reference": "49f9fba471ad8626c3552a5efb67347292c3a0aa"
+                "reference": "204d3cfca0930314a113630ee6f81f2258b3f4fb"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-49f9fba471ad8626c3552a5efb67347292c3a0aa-zip-74d27b.tar",
-                "reference": "49f9fba471ad8626c3552a5efb67347292c3a0aa",
-                "shasum": "57e735b8fb27c36453a33c84c44a215229898a79"
+                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-204d3cfca0930314a113630ee6f81f2258b3f4fb-zip-e38df2.tar",
+                "reference": "204d3cfca0930314a113630ee6f81f2258b3f4fb",
+                "shasum": "beebc8f2e38272a26dd92258e5281160387684d2"
             },
             "require": {
-                "php": "^7.2|^8.0"
+                "ext-mysqli": "^8.0",
+                "php": "^8.0"
             },
             "require-dev": {
                 "dancryer/php-docblock-checker": "^1",
+                "phpstan/phpstan": "^0",
                 "phpunit/phpunit": "^9",
+                "slevomat/coding-standard": "^6.4",
                 "squizlabs/php_codesniffer": "^3"
             },
             "type": "libary",
@@ -53,10 +56,13 @@
                 "phpcs-diff": [
                     "@composer changed-files | xargs ls -d 2>/dev/null | xargs ./vendor/bin/phpcs"
                 ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse"
+                ],
                 "test": [
                     "@phpunit",
-                    "@phpdoccheck",
-                    "@phpcs"
+                    "@phpcs",
+                    "@phpstan"
                 ]
             },
             "license": [
@@ -81,9 +87,9 @@
             "support": {
                 "issues": "https://github.com/davidlienhard/database/issues/",
                 "email": "david.lienhard@tourasia.ch",
-                "source": "https://github.com/davidlienhard/database/tree/1.0.6"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.0"
             },
-            "time": "2021-01-04T07:30:01+00:00"
+            "time": "2021-02-16T08:44:54+00:00"
         }
     ],
     "packages-dev": [

@@ -13,6 +13,7 @@ namespace DavidLienhard\SessionHandler;
 
 use \DavidLienhard\Database\DatabaseInterface;
 use \DavidLienhard\Database\Parameter as DBParam;
+use \DavidLienhard\Database\ResultInterface;
 
 /**
  * sessionhandler using database
@@ -85,8 +86,8 @@ class SessionHandler implements \SessionHandlerInterface
                 new DBParam("s", $sessionID)
             );
 
-            $sessionData = $this->db->num_rows($result) === 1
-                ? $this->db->result($result, 0, "sessionData")
+            $sessionData = ($result instanceof ResultInterface) && $result->num_rows() === 1
+                ? (string) $result->result(0, "sessionData")
                 : "";
         } catch (\Exception $e) {
             throw $e;
