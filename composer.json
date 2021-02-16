@@ -24,13 +24,13 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
+        "php": "^8.0",
         "davidlienhard/database": "^1"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3",
         "dancryer/php-docblock-checker": "^1",
-        "phpstan/phpstan": "^0.12.68"
+        "phpstan/phpstan": "^0"
     },
     "autoload": {
         "classmap": [
