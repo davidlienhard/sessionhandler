@@ -4,8 +4,6 @@
  *
  * @package         tourBase
  * @author          David Lienhard <david.lienhard@tourasia.ch>
- * @version         1.3-2047, 19.11.2020
- * @since           1.0.0, 26.11.2020, created
  * @copyright       tourasia
  */
 
@@ -20,8 +18,6 @@ use \DavidLienhard\Database\Parameter as DBParam;
  * sessionhandler using database
  *
  * @author          David Lienhard <david.lienhard@tourasia.ch>
- * @version         1.0.0, 26.11.2020
- * @since           1.0.0, 26.11.2020, created
  * @copyright       tourasia
  */
 class SessionHandler implements \SessionHandlerInterface
@@ -37,8 +33,6 @@ class SessionHandler implements \SessionHandlerInterface
      * sets the given dependencies
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           \DavidLienhard\Database\DatabaseInterface   $db     database connection
      * @return          void
@@ -53,8 +47,6 @@ class SessionHandler implements \SessionHandlerInterface
      * placeholder
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           string      $savePath       path to save sessions to
      * @param           string      $sessionID      unique session id
@@ -69,8 +61,6 @@ class SessionHandler implements \SessionHandlerInterface
      * cleanup
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @return          bool
      * @uses            self::$db
@@ -85,8 +75,6 @@ class SessionHandler implements \SessionHandlerInterface
      * read session data
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           string      $sessionID      unique session id
      * @return          string      the session data
@@ -119,8 +107,6 @@ class SessionHandler implements \SessionHandlerInterface
      * write session data
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           string      $sessionID      unique session id
      * @param           string      $sessionData    data to be written to the session
@@ -151,8 +137,6 @@ class SessionHandler implements \SessionHandlerInterface
      * destroys a session
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           string      $sessionID      unique session id
      * @return          bool
@@ -179,8 +163,6 @@ class SessionHandler implements \SessionHandlerInterface
      * garbage collection
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @version         1.0.0, 26.11.2020
-     * @since           1.0.0, 26.11.2020, created
      * @copyright       tourasia
      * @param           int     $maxLifetime    max lifetime of a session in seconds
      * @return          bool
