@@ -27,13 +27,6 @@ use \DavidLienhard\Database\Parameter as DBParam;
 class SessionHandler implements \SessionHandlerInterface
 {
     /**
-     * database connection
-     * @var     \DavidLienhard\Database\DatabaseInterface
-     */
-    private $db;
-
-
-    /**
      * sets the given dependencies
      *
      * @author          David Lienhard <david.lienhard@tourasia.ch>
@@ -44,9 +37,8 @@ class SessionHandler implements \SessionHandlerInterface
      * @return          void
      * @uses            self::$db
      */
-    public function __construct(DatabaseInterface $db)
+    public function __construct(private DatabaseInterface $db)
     {
-        $this->db = $db;
     }
 
     /**
