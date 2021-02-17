@@ -8,17 +8,17 @@
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:davidlienhard/database.git",
-                "reference": "204d3cfca0930314a113630ee6f81f2258b3f4fb"
+                "reference": "8ce6a89038df29ffaaf83e6fb7af143640282e3b"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-204d3cfca0930314a113630ee6f81f2258b3f4fb-zip-e38df2.tar",
-                "reference": "204d3cfca0930314a113630ee6f81f2258b3f4fb",
-                "shasum": "beebc8f2e38272a26dd92258e5281160387684d2"
+                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-8ce6a89038df29ffaaf83e6fb7af143640282e3b-zip-4bfb5c.tar",
+                "reference": "8ce6a89038df29ffaaf83e6fb7af143640282e3b",
+                "shasum": "331e69facf04591da2a43e8b87abbbb028a76a41"
             },
             "require": {
                 "ext-mysqli": "^8.0",
@@ -87,9 +87,9 @@
             "support": {
                 "issues": "https://github.com/davidlienhard/database/issues/",
                 "email": "david.lienhard@tourasia.ch",
-                "source": "https://github.com/davidlienhard/database/tree/2.0.0"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.1"
             },
-            "time": "2021-02-16T08:44:54+00:00"
+            "time": "2021-02-17T05:19:32+00:00"
         }
     ],
     "packages-dev": [
