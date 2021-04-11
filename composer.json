@@ -29,7 +29,8 @@
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3",
-        "phpstan/phpstan": "^0"
+        "phpstan/phpstan": "^0",
+        "davidlienhard/coding-standard": "^0"
     },
     "autoload": {
         "classmap": [
