@@ -29,7 +29,6 @@
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3",
-        "dancryer/php-docblock-checker": "^1",
         "phpstan/phpstan": "^0"
     },
     "autoload": {
@@ -39,13 +38,10 @@
     },
     "scripts": {
         "changed-files": "git diff --name-only origin/master",
-        "phpdoccheck": "./vendor/bin/phpdoccheck",
-        "phpdoccheck-diff": "@composer changed-files | xargs ls -d 2>/dev/null | ./vendor/bin/phpdoccheck --from-stdin",
         "phpcs": "./vendor/bin/phpcs",
         "phpcs-diff": "@composer changed-files | xargs ls -d 2>/dev/null | xargs ./vendor/bin/phpcs",
         "phpstan": "./vendor/bin/phpstan analyse",
         "test": [
-            "@phpdoccheck",
             "@phpcs"
         ]
     }

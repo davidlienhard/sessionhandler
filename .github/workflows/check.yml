@@ -49,8 +49,5 @@ jobs:
     - name: Show changed files
       run: composer changed-files
 
-    - name: Run phpdoccheck
-      run: composer phpdoccheck-diff
-
     - name: Run phpcs
       run: composer phpcs-diff
