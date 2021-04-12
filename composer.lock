@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d91212eea4d98e476c2a79a8021fcb5",
+    "content-hash": "88bf5aa95e29f2a6a2bfacb6f29ec5d2",
     "packages": [
         {
             "name": "davidlienhard/database",
@@ -95,17 +95,17 @@
     "packages-dev": [
         {
             "name": "davidlienhard/coding-standard",
-            "version": "0.0.1",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/coding-standard.git",
-                "reference": "0ab8c0f4d1b7bd1b7dac903e80864b7e8134c573"
+                "reference": "9541673f873fb6be8816bf353530d22bb1916889"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.tourbase.ch/dist/davidlienhard/coding-standard/davidlienhard-coding-standard-0ab8c0f4d1b7bd1b7dac903e80864b7e8134c573-zip-1f0ac8.tar",
-                "reference": "0ab8c0f4d1b7bd1b7dac903e80864b7e8134c573",
-                "shasum": "8f5824f301ff45421ed43e35a69fd658b7c3c08b"
+                "url": "https://packages.tourbase.ch/dist/davidlienhard/coding-standard/davidlienhard-coding-standard-9541673f873fb6be8816bf353530d22bb1916889-zip-a047af.tar",
+                "reference": "9541673f873fb6be8816bf353530d22bb1916889",
+                "shasum": "eb028aacc41a899ea2ff4f6df8c720e7e4feda17"
             },
             "require": {
                 "php": "^8.0",
@@ -135,7 +135,7 @@
                 "source": "https://github.com/davidlienhard/coding-standard",
                 "issues": "https://github.com/davidlienhard/coding-standard/issues"
             },
-            "time": "2021-04-10T12:06:42+00:00"
+            "time": "2021-04-12T04:12:00+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -319,16 +319,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "7.0.0",
+            "version": "7.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "b4922c5ad5cbd3787c453a2eb1f6d540f2482198"
+                "reference": "08580348e8bb68a36c8753d3db6ba816089129e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/b4922c5ad5cbd3787c453a2eb1f6d540f2482198",
-                "reference": "b4922c5ad5cbd3787c453a2eb1f6d540f2482198",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/08580348e8bb68a36c8753d3db6ba816089129e6",
+                "reference": "08580348e8bb68a36c8753d3db6ba816089129e6",
                 "shasum": ""
             },
             "require": {
@@ -364,7 +364,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/7.0.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/7.0.1"
             },
             "funding": [
                 {
@@ -376,7 +376,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-04-09T07:01:20+00:00"
+            "time": "2021-04-09T12:43:58+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
