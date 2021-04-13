@@ -8,27 +8,26 @@
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:davidlienhard/database.git",
-                "reference": "a45631e184e334b90cfa8f2ab38ebe26e6424249"
+                "reference": "6325f535d87e7fbc8ffde5271261b49226295671"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-a45631e184e334b90cfa8f2ab38ebe26e6424249-zip-fcb50c.tar",
-                "reference": "a45631e184e334b90cfa8f2ab38ebe26e6424249",
-                "shasum": "9a3037f5fb9106c68e43357106bb45c498bfbcaa"
+                "url": "https://packages.tourbase.ch/dist/davidlienhard/database/davidlienhard-database-6325f535d87e7fbc8ffde5271261b49226295671-zip-4025a8.tar",
+                "reference": "6325f535d87e7fbc8ffde5271261b49226295671",
+                "shasum": "99323eb07df0b66c1c4bda021db7397a58fe124c"
             },
             "require": {
                 "ext-mysqli": "^8.0",
                 "php": "^8.0"
             },
             "require-dev": {
-                "dancryer/php-docblock-checker": "^1",
+                "davidlienhard/coding-standard": "^1",
                 "phpstan/phpstan": "^0",
                 "phpunit/phpunit": "^9",
-                "slevomat/coding-standard": "^6.4",
                 "squizlabs/php_codesniffer": "^3"
             },
             "type": "libary",
@@ -43,12 +42,6 @@
                 ],
                 "phpunit": [
                     "./vendor/bin/phpunit"
-                ],
-                "phpdoccheck": [
-                    "./vendor/bin/phpdoccheck"
-                ],
-                "phpdoccheck-diff": [
-                    "@composer changed-files | xargs ls -d 2>/dev/null | ./vendor/bin/phpdoccheck --from-stdin"
                 ],
                 "phpcs": [
                     "./vendor/bin/phpcs"
@@ -87,9 +80,9 @@
             "support": {
                 "issues": "https://github.com/davidlienhard/database/issues/",
                 "email": "david.lienhard@tourasia.ch",
-                "source": "https://github.com/davidlienhard/database/tree/2.0.2"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.3"
             },
-            "time": "2021-02-22T07:18:37+00:00"
+            "time": "2021-04-12T07:57:24+00:00"
         }
     ],
     "packages-dev": [
