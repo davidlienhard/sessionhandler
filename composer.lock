@@ -88,17 +88,17 @@
     "packages-dev": [
         {
             "name": "davidlienhard/coding-standard",
-            "version": "1.0.0",
+            "version": "1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/coding-standard.git",
-                "reference": "9541673f873fb6be8816bf353530d22bb1916889"
+                "reference": "03f8f2e6a78c2826637fdc01d779682f941c051e"
             },
             "dist": {
                 "type": "tar",
-                "url": "https://packages.tourbase.ch/dist/davidlienhard/coding-standard/davidlienhard-coding-standard-9541673f873fb6be8816bf353530d22bb1916889-zip-a047af.tar",
-                "reference": "9541673f873fb6be8816bf353530d22bb1916889",
-                "shasum": "eb028aacc41a899ea2ff4f6df8c720e7e4feda17"
+                "url": "https://packages.tourbase.ch/dist/davidlienhard/coding-standard/davidlienhard-coding-standard-03f8f2e6a78c2826637fdc01d779682f941c051e-zip-38ab1e.tar",
+                "reference": "03f8f2e6a78c2826637fdc01d779682f941c051e",
+                "shasum": "e6c9e4750f823b597cbc3b2475b0fd863cb8f24b"
             },
             "require": {
                 "php": "^8.0",
@@ -128,7 +128,7 @@
                 "source": "https://github.com/davidlienhard/coding-standard",
                 "issues": "https://github.com/davidlienhard/coding-standard/issues"
             },
-            "time": "2021-04-12T04:12:00+00:00"
+            "time": "2021-04-13T07:09:59+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
