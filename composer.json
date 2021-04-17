@@ -17,12 +17,6 @@
         "issues": "https://github.com/davidlienhard/sessionhandler/issues/",
         "email": "david.lienhard@tourasia.ch"
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.tourbase.ch"
-        }
-    ],
     "require": {
         "php": "^8.0",
         "davidlienhard/database": "^2"
