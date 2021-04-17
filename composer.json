@@ -1,6 +1,6 @@
 {
     "name": "davidlienhard/sessionhandler",
-    "license": "proprietary",
+    "license": ["MIT"],
     "description": "🐘 php sessionhandler using database connection",
     "keywords": [ "router", "php", "library" ],
     "type": "libary",
