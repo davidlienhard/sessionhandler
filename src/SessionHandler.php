@@ -3,8 +3,8 @@
  * contains \DavidLienhard\SessionHandler\SessionHandler class
  *
  * @package         tourBase
- * @author          David Lienhard <david.lienhard@tourasia.ch>
- * @copyright       tourasia
+ * @author          David Lienhard <github@lienhard.win>
+ * @copyright       David Lienhard
  */
 
 declare(strict_types=1);
@@ -18,16 +18,16 @@ use \DavidLienhard\Database\ResultInterface;
 /**
  * sessionhandler using database
  *
- * @author          David Lienhard <david.lienhard@tourasia.ch>
- * @copyright       tourasia
+ * @author          David Lienhard <github@lienhard.win>
+ * @copyright       David Lienhard
  */
 class SessionHandler implements \SessionHandlerInterface
 {
     /**
      * sets the given dependencies
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           \DavidLienhard\Database\DatabaseInterface   $db     database connection
      * @return          void
      * @uses            self::$db
@@ -39,8 +39,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * placeholder
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           string      $savePath       path to save sessions to
      * @param           string      $sessionID      unique session id
      * @return          bool
@@ -53,8 +53,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * cleanup
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @return          bool
      * @uses            self::$db
      */
@@ -66,8 +66,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * read session data
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           string      $sessionID      unique session id
      * @return          string      the session data
      * @uses            self::$db
@@ -98,8 +98,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * write session data
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           string      $sessionID      unique session id
      * @param           string      $sessionData    data to be written to the session
      * @return          bool
@@ -128,8 +128,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * destroys a session
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           string      $sessionID      unique session id
      * @return          bool
      * @uses            self::$db
@@ -154,8 +154,8 @@ class SessionHandler implements \SessionHandlerInterface
     /**
      * garbage collection
      *
-     * @author          David Lienhard <david.lienhard@tourasia.ch>
-     * @copyright       tourasia
+     * @author          David Lienhard <github@lienhard.win>
+     * @copyright       David Lienhard
      * @param           int     $maxLifetime    max lifetime of a session in seconds
      * @return          bool
      * @uses            self::$db
