@@ -8,14 +8,14 @@
     "authors": [
         {
             "name": "David Lienhard",
-            "email": "david.lienhard@tourasia.ch",
-            "homepage": "http://www.tourasia.ch/",
+            "email": "github@lienhard.win",
+            "homepage": "http://www.lienhard.win/",
             "role": "Developer"
         }
     ],
     "support": {
         "issues": "https://github.com/davidlienhard/sessionhandler/issues/",
-        "email": "david.lienhard@tourasia.ch"
+        "email": "github@lienhard.win"
     },
     "require": {
         "php": "^8.0",
