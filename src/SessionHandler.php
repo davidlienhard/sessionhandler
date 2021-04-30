@@ -11,9 +11,9 @@ declare(strict_types=1);
 
 namespace DavidLienhard\SessionHandler;
 
-use \DavidLienhard\Database\DatabaseInterface;
-use \DavidLienhard\Database\Parameter as DBParam;
-use \DavidLienhard\Database\ResultInterface;
+use DavidLienhard\Database\DatabaseInterface;
+use DavidLienhard\Database\Parameter as DBParam;
+use DavidLienhard\Database\ResultInterface;
 
 /**
  * sessionhandler using database
