@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/database.git",
-                "reference": "6325f535d87e7fbc8ffde5271261b49226295671"
+                "reference": "5e83e02509d4c06b46b7c5e74fcdd481e52a06e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidlienhard/database/zipball/6325f535d87e7fbc8ffde5271261b49226295671",
-                "reference": "6325f535d87e7fbc8ffde5271261b49226295671",
+                "url": "https://api.github.com/repos/davidlienhard/database/zipball/5e83e02509d4c06b46b7c5e74fcdd481e52a06e0",
+                "reference": "5e83e02509d4c06b46b7c5e74fcdd481e52a06e0",
                 "shasum": ""
             },
             "require": {
@@ -38,13 +38,13 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "proprietary"
+                "MIT"
             ],
             "authors": [
                 {
                     "name": "David Lienhard",
-                    "email": "david.lienhard@tourasia.ch",
-                    "homepage": "http://www.tourasia.ch/",
+                    "email": "github@lienhard.win",
+                    "homepage": "http://www.lienhard.win/",
                     "role": "Developer"
                 }
             ],
@@ -57,11 +57,11 @@
                 "php"
             ],
             "support": {
-                "email": "david.lienhard@tourasia.ch",
+                "email": "github@lienhard.win",
                 "issues": "https://github.com/davidlienhard/database/issues/",
-                "source": "https://github.com/davidlienhard/database/tree/2.0.3"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.4"
             },
-            "time": "2021-04-12T07:57:24+00:00"
+            "time": "2021-04-30T18:35:23+00:00"
         }
     ],
     "packages-dev": [
