@@ -31,7 +31,7 @@ session_start();                                                    // start ses
 There must be an existing database connection using [`davidlienhard/database`](https://github.com/davidlienhard/database). This database object must be passted to the constructor.
 
 ### Database-Table
-A table with the name `sessions` with the following structure must exists in the database.
+A table with the name `sessions` with the following structure must exist in the database.
 
 ```sql
 CREATE TABLE `sessions` (
