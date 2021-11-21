@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/database.git",
-                "reference": "bd5349040ed9948b0730547ec0d53b15401a34b8"
+                "reference": "68ca25e780180b0bfb59bb09d8ea189ff7a6c8ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidlienhard/database/zipball/bd5349040ed9948b0730547ec0d53b15401a34b8",
-                "reference": "bd5349040ed9948b0730547ec0d53b15401a34b8",
+                "url": "https://api.github.com/repos/davidlienhard/database/zipball/68ca25e780180b0bfb59bb09d8ea189ff7a6c8ad",
+                "reference": "68ca25e780180b0bfb59bb09d8ea189ff7a6c8ad",
                 "shasum": ""
             },
             "require": {
@@ -27,11 +27,11 @@
             },
             "require-dev": {
                 "davidlienhard/coding-standard": "^1",
-                "phpstan/phpstan": "^0",
+                "phpstan/phpstan": "^0 || ^1",
                 "phpunit/phpunit": "^9",
                 "squizlabs/php_codesniffer": "^3"
             },
-            "type": "libary",
+            "type": "library",
             "autoload": {
                 "classmap": [
                     "src/"
@@ -60,9 +60,9 @@
             "support": {
                 "email": "github@lienhard.win",
                 "issues": "https://github.com/davidlienhard/database/issues/",
-                "source": "https://github.com/davidlienhard/database/tree/2.0.5"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.6"
             },
-            "time": "2021-05-10T10:41:42+00:00"
+            "time": "2021-11-07T21:22:11+00:00"
         },
         {
             "name": "davidlienhard/functioncaller",
