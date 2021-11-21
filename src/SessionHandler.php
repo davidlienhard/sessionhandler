@@ -42,9 +42,8 @@ class SessionHandler implements \SessionHandlerInterface
      * @copyright       David Lienhard
      * @param           string      $savePath       path to save sessions to
      * @param           string      $sessionID      unique session id
-     * @return          bool
      */
-    public function open($savePath, $sessionID)
+    public function open($savePath, $sessionID) : bool
     {
         return true;
     }
@@ -54,10 +53,8 @@ class SessionHandler implements \SessionHandlerInterface
      *
      * @author          David Lienhard <github@lienhard.win>
      * @copyright       David Lienhard
-     * @return          bool
-     * @uses            self::$db
      */
-    public function close()
+    public function close() : bool
     {
         return true;
     }
@@ -71,7 +68,7 @@ class SessionHandler implements \SessionHandlerInterface
      * @return          string      the session data
      * @uses            self::$db
      */
-    public function read($sessionID)
+    public function read($sessionID) : string
     {
         try {
             $result = $this->db->query(
@@ -101,10 +98,9 @@ class SessionHandler implements \SessionHandlerInterface
      * @copyright       David Lienhard
      * @param           string      $sessionID      unique session id
      * @param           string      $sessionData    data to be written to the session
-     * @return          bool
      * @uses            self::$db
      */
-    public function write($sessionID, $sessionData)
+    public function write($sessionID, $sessionData) : bool
     {
         try {
             $this->db->query(
@@ -130,10 +126,9 @@ class SessionHandler implements \SessionHandlerInterface
      * @author          David Lienhard <github@lienhard.win>
      * @copyright       David Lienhard
      * @param           string      $sessionID      unique session id
-     * @return          bool
      * @uses            self::$db
      */
-    public function destroy($sessionID)
+    public function destroy($sessionID) : bool
     {
         try {
             $this->db->query(
@@ -156,10 +151,9 @@ class SessionHandler implements \SessionHandlerInterface
      * @author          David Lienhard <github@lienhard.win>
      * @copyright       David Lienhard
      * @param           int     $maxLifetime    max lifetime of a session in seconds
-     * @return          bool
      * @uses            self::$db
      */
-    public function gc($maxLifetime)
+    public function gc($maxLifetime) : int|false
     {
         try {
             $checkStamp = time() - $maxLifetime;
@@ -172,10 +166,10 @@ class SessionHandler implements \SessionHandlerInterface
                     `sessionLastSave` IS NULL",
                 new DBParam("i", $checkStamp)
             );
+
+            return $this->db->affected_rows();
         } catch (\Exception $e) {
             throw $e;
         }
-
-        return true;
     }
 }
