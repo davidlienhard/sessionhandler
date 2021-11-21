@@ -37,7 +37,8 @@
         "phpcs-diff": "@composer changed-files | xargs ls -d 2>/dev/null | xargs ./vendor/bin/phpcs",
         "phpstan": "./vendor/bin/phpstan analyse",
         "test": [
-            "@phpcs"
+            "@phpcs",
+            "@phpstan"
         ]
     }
 }
