@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "davidlienhard/database",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/database.git",
-                "reference": "fc7f077037c549cbea1c4dbe08ee94878fd2b229"
+                "reference": "1d908943249c1df42347b6a0f63f781bb8012aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidlienhard/database/zipball/fc7f077037c549cbea1c4dbe08ee94878fd2b229",
-                "reference": "fc7f077037c549cbea1c4dbe08ee94878fd2b229",
+                "url": "https://api.github.com/repos/davidlienhard/database/zipball/1d908943249c1df42347b6a0f63f781bb8012aec",
+                "reference": "1d908943249c1df42347b6a0f63f781bb8012aec",
                 "shasum": ""
             },
             "require": {
@@ -60,22 +60,22 @@
             "support": {
                 "email": "github@lienhard.win",
                 "issues": "https://github.com/davidlienhard/database/issues/",
-                "source": "https://github.com/davidlienhard/database/tree/2.0.7"
+                "source": "https://github.com/davidlienhard/database/tree/2.0.8"
             },
-            "time": "2022-10-15T17:34:56+00:00"
+            "time": "2022-10-22T09:07:24+00:00"
         },
         {
             "name": "davidlienhard/functioncaller",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/davidlienhard/functioncaller.git",
-                "reference": "902bf18bea7dd0179e2b5a26f555e86be043998b"
+                "reference": "8db871e601420ab23a8f61b35c4b07526b3dd956"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davidlienhard/functioncaller/zipball/902bf18bea7dd0179e2b5a26f555e86be043998b",
-                "reference": "902bf18bea7dd0179e2b5a26f555e86be043998b",
+                "url": "https://api.github.com/repos/davidlienhard/functioncaller/zipball/8db871e601420ab23a8f61b35c4b07526b3dd956",
+                "reference": "8db871e601420ab23a8f61b35c4b07526b3dd956",
                 "shasum": ""
             },
             "require": {
@@ -114,9 +114,9 @@
             "support": {
                 "email": "github@lienhard.win",
                 "issues": "https://github.com/davidlienhard/functioncaller/issues/",
-                "source": "https://github.com/davidlienhard/functioncaller/tree/1.1.1"
+                "source": "https://github.com/davidlienhard/functioncaller/tree/1.1.2"
             },
-            "time": "2022-10-15T15:54:59+00:00"
+            "time": "2022-10-22T08:48:32+00:00"
         }
     ],
     "packages-dev": [
