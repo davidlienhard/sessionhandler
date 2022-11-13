@@ -34,7 +34,7 @@ jobs:
         key: ${{ runner.os }}-${{ matrix.php }}-composer-${{ hashFiles('**/composer.lock') }}
         restore-keys: ${{ runner.os }}-${{ matrix.php }}-composer-
 
-    - name: Validate composer.json and composer.lock
+    - name: Validate composer.json
       run: composer validate
 
     - name: Install dependencies
