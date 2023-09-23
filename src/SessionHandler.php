@@ -82,7 +82,7 @@ class SessionHandler implements \SessionHandlerInterface
             );
 
             $sessionData = ($result instanceof ResultInterface) && $result->num_rows() === 1
-                ? (string) $result->result(0, "sessionData")
+                ? $result->resultAsString(0, "sessionData")
                 : "";
         } catch (\Exception $e) {
             throw $e;
