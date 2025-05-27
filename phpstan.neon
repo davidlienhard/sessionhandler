@@ -6,4 +6,3 @@ parameters:
         - src
 
     treatPhpDocTypesAsCertain: false
-    checkMissingIterableValueType: false
